@@ -1,0 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "style";
+
+.header-area .logo-area {
+    margin-top:8px;
+}
+.logo img {
+    width:110px;
+}
+.home2_basic_bg {
+    background: -moz-linear-gradient(-45deg, $home2_basic_color 0%, #ffc70f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, $home2_basic_color 0%,#ffc70f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, $home2_basic_color 0%,#ffc70f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$home2_basic_color', endColorstr='#ffc70f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.header-area {
+    background: $home2_basic_color !important;
+    .current-menu-item > a:hover {
+        color:white !important;
+    }
+}

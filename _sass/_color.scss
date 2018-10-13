@@ -1,0 +1,192 @@
+
+$body_color: #44607d;
+
+$basic_color: #29b6f6;
+
+$semi_black: #2b2f32;
+
+$semi_black2: #555555;
+
+$basic_button_color: #f3a54e;
+
+$title_heading_color: #222222;
+
+$paragraph_color: #666666;
+
+$blue_color: #1a6cf3;
+
+$paragraph_color: #44607d;
+
+$white:#ffffff;
+
+$text_hover_color:#16a8ef;
+
+$area_bg:#fafafa;
+
+$owl_nav:rgba(48, 79, 110, 0.1) none repeat scroll 0 0;
+
+//$extra_color: #86a0b9;
+$off_white: #f7f9fb;
+
+$navy_blue:#b6cee5;
+
+$owl_dot:#dceaf7;
+
+// Home Page 2
+$home2_basic_color: #f19a3b;
+$home2_button: #055890;
+
+// Home Page 3
+$home3_black: #2e2d26;
+$home3_button: #e4ce10;
+
+
+
+
+
+.body_color{
+ color: $body_color;
+} 
+    
+.body_bg{
+     background: $body_color;
+}
+
+.semi_black_color{
+    color: $semi_black;
+}
+.semi_black_bg{
+    background: $semi_black;
+}
+
+.semi_black2_color{
+    color: $semi_black2;
+}
+.semi_black2_bg{
+    background: $semi_black2;
+}
+
+.basic_color{
+    color: $basic_color;
+}
+.basic_bg{
+    background: $basic_color;
+}
+
+.basic_button_color{
+    color:$basic_button_color;
+}
+.basic_button_bg{
+    background:$basic_button_color;
+}
+
+.title_heading_color{
+    color: $title_heading_color;
+}
+.title_heading_bg{
+    background: $title_heading_color;
+}
+
+.paragraph_color{
+    color: $paragraph_color;
+}
+.paragraph_bg{
+    background: $paragraph_color;
+}
+
+.blue_color{
+    color: $blue_color;
+}
+.blue_bg{
+    background: $blue_color;
+}
+
+.white{
+    color: $white;
+}  
+.white_bg{
+    background: $white;
+} 
+
+.off_white{
+    color: $off_white;
+}  
+.off_white_bg{
+    background: $off_white;
+} 
+
+.text_hover_color{
+    color: $text_hover_color;
+}
+.text_hover_bg{
+    background: $text_hover_color;
+}
+   
+.area_bg{
+    color: $area_bg;
+}
+.area_bg_bg{
+    background: $area_bg;
+}
+
+.owl_nav{
+    color: $owl_nav;
+}
+.owl_nav_bg{
+    background: $owl_nav;
+}
+
+.owl_dot{
+    color: $owl_dot;
+}
+.owl_dot_bg{
+    background: $owl_dot;
+}
+
+// Home2 Color
+.home2_basic_color{
+    color: $home2_basic_color;
+}
+.home2_basic_bg{
+    background: $home2_basic_color;
+}
+
+.home2_button_color{
+    color: $home2_button;
+}
+.home2_button_bg{
+    background: $home2_button;
+}
+
+
+// Home 3 Color
+
+.home3_black_color{
+    color: $home3_black;
+}
+.home3_black_bg{
+    background: $home3_black;
+}
+
+.home3_button_color{
+    color: $home3_button;
+}
+.home3_button_bg{
+    background: $home3_button;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
