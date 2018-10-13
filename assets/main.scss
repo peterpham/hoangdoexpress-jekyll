@@ -22,3 +22,17 @@
         color:white !important;
     }
 }
+.powerful-section2 {
+    .powerful-main-content {
+        flex-direction: row-reverse;
+    }
+}
+.powerful-main-content {
+    .powerful-area-contect {
+        .powerful-area-icon {
+            display:block;
+            margin: 0 auto 30px;
+        }
+
+    }
+}
