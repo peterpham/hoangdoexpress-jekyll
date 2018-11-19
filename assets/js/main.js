@@ -65,6 +65,9 @@
             });
         }
 
+        if ($.fn.owlCarousel) {
+
+        
         $('#app-slider-wrapper').owlCarousel({
             loop: true,
             items: 6,
@@ -127,6 +130,7 @@
             }
         });
 
+        }
         if ($.fn.magnificPopup) {
             $(".video-play-btn").magnificPopup({
                 type: 'video',
