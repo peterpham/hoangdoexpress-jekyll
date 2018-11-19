@@ -127,7 +127,7 @@ img {
 ul {
     padding: 0;
     margin: 0;
-    list-style: none
+    list-style: inside;
 }
 
 body {
@@ -1929,6 +1929,7 @@ body {
         }
     }
     ul {
+        list-style: none;
         li {
             a {
                 @extend .paragraph_color;
@@ -2005,7 +2006,7 @@ body {
             ul {
                 li {
                     a {
-                        @extend .white;
+                        // @extend .white;
                         &:hover {
                             @extend .white;
                             opacity: .58;
