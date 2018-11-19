@@ -36,3 +36,17 @@
 
     }
 }
+.toc {
+    font-size: .85rem;
+    font-weight: normal;
+    h5 {
+        font-size: 1rem;
+        color:inherit;
+    }
+    ul {
+        list-style: none;
+        ul {
+            margin-left: 1rem;
+        }
+    }
+}
