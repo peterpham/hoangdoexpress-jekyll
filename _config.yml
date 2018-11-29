@@ -24,6 +24,7 @@ download_appstore: https://itunes.apple.com/us/app/hoang-do-express-rider/id1380
 download_googleplay: https://play.google.com/store/apps/details?id=rider.droid
 download_appstore_driver: https://itunes.apple.com/us/app/hoang-do-express-driver/id1380133335?ls=1&mt=8
 download_googleplay_driver: https://play.google.com/store/apps/details?id=driver.droid
+analytics: UA-130111076-1
 
 # Build settings
 markdown: kramdown
