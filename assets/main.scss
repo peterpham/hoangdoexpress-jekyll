@@ -9,17 +9,18 @@
 }
 .logo img {
     width:110px;
+    margin-bottom: 8px;
 }
-.home2_basic_bg {
+.home2_basic_bg, .inner-hero-area {
     background: -moz-linear-gradient(-45deg, $home2_basic_color 0%, #ffc70f 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, $home2_basic_color 0%,#ffc70f 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, $home2_basic_color 0%,#ffc70f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$home2_basic_color', endColorstr='#ffc70f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .header-area {
-    background: $home2_basic_color !important;
+    background: white !important;
     .current-menu-item > a:hover {
-        color:white !important;
+        color: darken($home2_basic_color, 10%) !important;
     }
 }
 .powerful-section2 {
@@ -56,4 +57,7 @@
             margin-left: 2rem;
         }
     }
+}
+.inner-hero-area {
+    margin-bottom: 2rem;
 }
